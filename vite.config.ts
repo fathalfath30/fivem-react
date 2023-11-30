@@ -8,15 +8,6 @@ export default defineConfig({
   ],
   base: './',
   build: {
-    outDir: 'ui',
-    //rollupOptions:{
-    //  input: {
-    //    app: "./src/index.html"
-    //  },
-    //  output: "./index.html"
-    //}
-  },
-  // server: {
-  //   open: './index.html',
-  // },
+    outDir: 'ui'
+  }
 });

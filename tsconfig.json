@@ -7,8 +7,8 @@
       "ESNext"
     ],
     "jsx": "react-jsx",
-    "module": "ESNext",
-    "moduleResolution": "Node",
+    "module": "esnext",
+    "moduleResolution": "node",
     "useDefineForClassFields": true,
     "allowJs": false,
     "skipLibCheck": true,
@@ -18,14 +18,10 @@
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true
+    "noEmit": true,
+    "composite": true
   },
   "include": [
     "src"
-  ],
-  "references": [
-    {
-      "path": "./tsconfig.node.json"
-    }
   ]
 }
